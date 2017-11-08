@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@chauffeur-prive/node-amqp-bus@~4.0.0",
+        "scope": "@chauffeur-prive",
+        "escapedName": "@chauffeur-prive%2fnode-amqp-bus",
+        "name": "@chauffeur-prive/node-amqp-bus",
+        "rawSpec": "~4.0.0",
+        "spec": ">=4.0.0 <4.1.0",
+        "type": "range"
+      },
+      "/Users/romainkoenig/chauffeur-privé/save/wallet"
+    ]
+  ],
+  "_from": "@chauffeur-prive/node-amqp-bus@>=4.0.0 <4.1.0",
+  "_id": "@chauffeur-prive/node-amqp-bus@4.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@chauffeur-prive/node-amqp-bus",
+  "_nodeVersion": "7.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/node-amqp-bus-4.0.1.tgz_1480093113121_0.5510330258402973"
+  },
+  "_npmUser": {
+    "name": "cptechadmin",
+    "email": "tech-admin@chauffeur-prive.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@chauffeur-prive/node-amqp-bus@~4.0.0",
+    "scope": "@chauffeur-prive",
+    "escapedName": "@chauffeur-prive%2fnode-amqp-bus",
+    "name": "@chauffeur-prive/node-amqp-bus",
+    "rawSpec": "~4.0.0",
+    "spec": ">=4.0.0 <4.1.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@chauffeur-prive/node-amqp-bus/-/node-amqp-bus-4.0.1.tgz",
+  "_shasum": "3c2cf71c8869bd5df55fa3fc18ecc64ebfe341db",
+  "_shrinkwrap": null,
+  "_spec": "@chauffeur-prive/node-amqp-bus@~4.0.0",
+  "_where": "/Users/romainkoenig/chauffeur-privé/save/wallet",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/transcovo/node-amqp-bus/issues"
+  },
+  "dependencies": {
+    "amqplib": "^0.4.0",
+    "chpr-logger": "^2.1.1",
+    "co": "^4.6.0"
+  },
+  "description": "Implement a Bus using AMQP in nodejs",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co-mocha": "^1.1.2",
+    "dirty-chai": "^1.2.2",
+    "eslint": "^1.10.3",
+    "eslint-config-cp": "github:transcovo/eslint-config-cp#1.0.3",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "should": "^8.2.1",
+    "sinon": "^1.17.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "3c2cf71c8869bd5df55fa3fc18ecc64ebfe341db",
+    "tarball": "https://registry.npmjs.org/@chauffeur-prive/node-amqp-bus/-/node-amqp-bus-4.0.1.tgz"
+  },
+  "engines": {
+    "node": "6.3.1"
+  },
+  "gitHead": "dccffdccc62da1b78480967413972d22ca385b6d",
+  "homepage": "https://github.com/transcovo/node-amqp-bus#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "cptechadmin",
+      "email": "tech-admin@chauffeur-prive.com"
+    }
+  ],
+  "name": "@chauffeur-prive/node-amqp-bus",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/transcovo/node-amqp-bus.git",
+    "private": true
+  },
+  "scripts": {
+    "coverage": "istanbul cover _mocha ./test --recursive",
+    "lint": "eslint .",
+    "mocha": "mocha ./test --recursive --bail",
+    "test": "npm run coverage && npm run lint"
+  },
+  "version": "4.0.1",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "6.3.1"
+      },
+      "pkgid": "@chauffeur-prive/node-amqp-bus@4.0.1"
+    }
+  ]
+}

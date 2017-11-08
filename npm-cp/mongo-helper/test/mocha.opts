@@ -1,0 +1,1 @@
+-b --recursive --require co-mocha

@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@chauffeur-prive/mongo-helper@2.1.0",
+        "scope": "@chauffeur-prive",
+        "escapedName": "@chauffeur-prive%2fmongo-helper",
+        "name": "@chauffeur-prive/mongo-helper",
+        "rawSpec": "2.1.0",
+        "spec": "2.1.0",
+        "type": "version"
+      },
+      "/Users/romainkoenig/chauffeur-privé/save/wallet"
+    ]
+  ],
+  "_from": "@chauffeur-prive/mongo-helper@2.1.0",
+  "_id": "@chauffeur-prive/mongo-helper@2.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@chauffeur-prive/mongo-helper",
+  "_nodeVersion": "6.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/mongo-helper-2.1.0.tgz_1467997509125_0.9002996790222824"
+  },
+  "_npmUser": {
+    "name": "cptechadmin",
+    "email": "tech-admin@chauffeur-prive.com"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@chauffeur-prive/mongo-helper@2.1.0",
+    "scope": "@chauffeur-prive",
+    "escapedName": "@chauffeur-prive%2fmongo-helper",
+    "name": "@chauffeur-prive/mongo-helper",
+    "rawSpec": "2.1.0",
+    "spec": "2.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@chauffeur-prive/mongo-helper/-/mongo-helper-2.1.0.tgz",
+  "_shasum": "7ca9ec55f30722daf737ed44458419d17f0a6ba9",
+  "_shrinkwrap": null,
+  "_spec": "@chauffeur-prive/mongo-helper@2.1.0",
+  "_where": "/Users/romainkoenig/chauffeur-privé/save/wallet",
+  "bugs": {
+    "url": "https://github.com/transcovo/mongo-helper/issues"
+  },
+  "dependencies": {},
+  "description": "MongoDB connection helper",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "chai-things": "^0.2.0",
+    "co-mocha": "^1.1.2",
+    "coveralls": "^2.11.9",
+    "dirty-chai": "^1.2.2",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-config-cp": "^1.3.0",
+    "eslint-plugin-import": "^1.6.1",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7ca9ec55f30722daf737ed44458419d17f0a6ba9",
+    "tarball": "https://registry.npmjs.org/@chauffeur-prive/mongo-helper/-/mongo-helper-2.1.0.tgz"
+  },
+  "gitHead": "a38fdbc48c40b6b227a73d45ef5ac07227edc25f",
+  "homepage": "https://github.com/transcovo/mongo-helper#readme",
+  "keywords": [
+    "database"
+  ],
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "cptechadmin",
+      "email": "tech-admin@chauffeur-prive.com"
+    }
+  ],
+  "name": "@chauffeur-prive/mongo-helper",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "mongodb": "2.x"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/transcovo/mongo-helper.git",
+    "private": true
+  },
+  "scripts": {
+    "coverage": "istanbul cover _mocha",
+    "lint": "eslint .",
+    "mocha": "mocha",
+    "test": "npm run lint && npm run coverage"
+  },
+  "version": "2.1.0"
+}

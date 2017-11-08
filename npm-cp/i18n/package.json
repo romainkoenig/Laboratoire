@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@chauffeur-prive/i18n@^1.2.0",
+        "scope": "@chauffeur-prive",
+        "escapedName": "@chauffeur-prive%2fi18n",
+        "name": "@chauffeur-prive/i18n",
+        "rawSpec": "^1.2.0",
+        "spec": ">=1.2.0 <2.0.0",
+        "type": "range"
+      },
+      "/Users/romainkoenig/chauffeur-privé/save/wallet/node_modules/express-middleware"
+    ]
+  ],
+  "_from": "@chauffeur-prive/i18n@>=1.2.0 <2.0.0",
+  "_id": "@chauffeur-prive/i18n@1.7.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@chauffeur-prive/i18n",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/i18n-1.7.0.tgz_1476783084937_0.5096583331469446"
+  },
+  "_npmUser": {
+    "name": "cptechadmin",
+    "email": "tech-admin@chauffeur-prive.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@chauffeur-prive/i18n@^1.2.0",
+    "scope": "@chauffeur-prive",
+    "escapedName": "@chauffeur-prive%2fi18n",
+    "name": "@chauffeur-prive/i18n",
+    "rawSpec": "^1.2.0",
+    "spec": ">=1.2.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/express-middleware"
+  ],
+  "_resolved": "https://registry.npmjs.org/@chauffeur-prive/i18n/-/i18n-1.7.0.tgz",
+  "_shasum": "13dfe44f4f27da0cc00460d953b624801c246523",
+  "_shrinkwrap": null,
+  "_spec": "@chauffeur-prive/i18n@^1.2.0",
+  "_where": "/Users/romainkoenig/chauffeur-privé/save/wallet/node_modules/express-middleware",
+  "author": {
+    "name": "Gilles Rasigade"
+  },
+  "bugs": {
+    "url": "https://github.com/transcovo/i18n/issues"
+  },
+  "dependencies": {
+    "humanize-duration": "~3.9.1",
+    "i18next": "3.4.3",
+    "intl": "~1.2.4",
+    "lodash": "~4.14.2",
+    "lru-cache": "~4.0.1",
+    "moment-timezone": "~0.5.5",
+    "redis": "~2.6.2",
+    "tv4": "~1.2.7"
+  },
+  "description": "i18n translation library",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co-mocha": "^1.1.3",
+    "codeclimate-test-reporter": "^0.3.3",
+    "coveralls": "^2.11.12",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "~9.0.1",
+    "eslint-config-cp": "~1.4.0",
+    "eslint-plugin-import": "~1.14.0",
+    "eslint-plugin-jsx-a11y": "~1.5.5",
+    "eslint-plugin-react": "~5.2.2",
+    "istanbul": "^0.4.4",
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1",
+    "mocha": "^3.0.2",
+    "objectid": "^3.2.1",
+    "sinon": "^1.17.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "13dfe44f4f27da0cc00460d953b624801c246523",
+    "tarball": "https://registry.npmjs.org/@chauffeur-prive/i18n/-/i18n-1.7.0.tgz"
+  },
+  "gitHead": "ddee897cf978f3f3d649a15c7a62d23c0c6ee5aa",
+  "homepage": "https://github.com/transcovo/i18n#readme",
+  "keywords": [
+    "i18n",
+    "translation",
+    "lib"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "cptechadmin",
+      "email": "tech-admin@chauffeur-prive.com"
+    }
+  ],
+  "name": "@chauffeur-prive/i18n",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transcovo/i18n.git",
+    "private": true
+  },
+  "scripts": {
+    "doc": "./node_modules/jsdoc/jsdoc.js --configure .jsdoc.json -R README.md ./lib",
+    "lint": "eslint .",
+    "mocha": "LOG_LEVEL=info NODE_ENV=test mocha test/ --recursive --bail",
+    "pretest": "npm run lint",
+    "test": "LOG_LEVEL=info NODE_ENV=test istanbul cover _mocha --include-all-sources --root ./lib -x \"**/public/**\" -x \"**/legacy/**\" -- --recursive"
+  },
+  "version": "1.7.0"
+}

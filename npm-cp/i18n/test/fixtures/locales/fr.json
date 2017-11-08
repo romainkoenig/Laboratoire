@@ -1,0 +1,8 @@
+{
+	"hello-john": "Bonjour {{john}}",
+	"howdy": "Hey",
+	"plural-dog": {
+		"one": "un chien s'appelant {{dog}}",
+		"other": "[0] aucun chien|[2,5] quelques chiens|[6,11] plusieurs chiens|[12,36] beaucoup de chiens|une horde de %s chiens"
+	}
+}

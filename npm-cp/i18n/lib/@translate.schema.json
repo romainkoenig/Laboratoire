@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "required": ["@translate"],
+  "properties": {
+    "@translate": {
+      "type": "object",
+      "required": ["key"],
+      "properties": {
+        "key": {
+          "type": "string",
+          "description": "Template key to translate"
+        },
+        "quantity": {
+          "type": "number",
+          "description": "Plural form quantity"
+        },
+        "placeholders": {
+          "type": "object",
+          "description": "Template placeholders"
+        },
+        "fallback": {
+          "type": "string",
+          "description": "Fallback template to be used if the key is not found"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
